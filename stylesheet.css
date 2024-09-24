@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   max-width: 80em;
-  margin-left: 5em;
+  margin: 3em;
 }
 
 h1, h2, th {
@@ -20,6 +20,10 @@ h3, th {
   font-size: 1.3em;
 }
 
+td {
+  vertical-align: top;
+}
+
 td > ul {
   list-style-type: none;
 }
@@ -29,6 +33,6 @@ th {
   padding-bottom: 2em;
 }
 
-.hilite:hover {
+td span:hover {
   background-color: lightgrey;
 }
